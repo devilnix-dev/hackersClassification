@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+
+    background-color: #070B14;
+    color: #FFFFFF;
+    font-family: "Inter";
+    
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.page-header {
+    background-color: #0A0F1A;
+    border: 2px solid #151B28;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    
+
+}
+
+.site-logo{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 64px;
+    margin-right: 278px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    margin-top: 4px;
+}
+
+.site-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    
+}
+
+.site-navigation-item a {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.promo {
+    background-color:#07111F;
+    background: radial-gradient(closest-side, #0d039c80, #0b037040, #07111F);
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    width: 1280px;
+}
+
+.promo-only-text h1{
+    padding-left: 36px;
+    width: 690px;
+    margin-right: 0;
+
+}
+
+.hacker-img {
+    margin-right: 800px;
+}
+
+.promo-text{
+    padding-left: 36px; 
+    width: 531px;
+}
+
+
+
+.edu-resource {
+    display: inline-block;
+    background-color: #0A1E3A;
+    color: #1E90FF;
+    border-radius: 8px;
+    height: 32px;
+    padding-top: 9px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 28px;
+    margin-left:44px;
+}
+
+.promo-buttons{
+    display: flex;
+}
+
+.promo-with-img {
+    display: flex;
+}
+
+.study-history-button {
+    
+    display: inline-block;
+    background-color: #0D47A7;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-right: 60px;
+    margin-bottom: 87px;
+    
+}
+
+.study-history-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.sections-button {
+    display: inline-block;
+    border:#5D687D solid 3px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    
+    padding-right: 19px;
+    padding-bottom: 19px;
+    padding-top: 19px;
+    margin-bottom: 87px;
+}
+
+.sections-button a{
+    text-decoration:  none;
+    color:#FFFFFF;
+}
+
+h2 {
+    margin-left: 80px;
+}
+
+
+.main-directions h2{
+    margin-bottom: 50px;
+}
+
+.directions {
+    display: flex;
+}
+
+.direction-item {
+    background-color: #0A101B;
+    border:#172132 solid 1px;
+    border-radius: 12px;
+    width: 292px;
+    height: 320px;
+    margin-right: 24px;
+    padding-top: 34px;
+}
+
+.direction-item h3,p,a {
+    padding-left: 22px;
+}
+
+.direction-item p {
+    color: #AEB7C9;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.direction-item a{
+    text-decoration: none;
+    color: #1E90FF;
+    padding-bottom: 36px;
+}
+
+.directions :first-child{
+    margin-left: 40px;
+}
+
+.direction-item :nth-child(2){
+    width: 247px;
+}
+
+.direction-item :nth-child(3){
+    width: 259px;
+}
+
+.start-cards {
+    display: flex;
+}
+
+.start-card {
+    display: flex;
+    width: 400px;
+    height: 220px;
+    border: solid 1px #1D2740;
+    border-radius: 12px;
+    margin-right: 20px;
+
+    padding-top: 44px;
+}
+.start-card:first-child{
+    margin-left: 40px;
+}
+
+.beginner {
+    background-color: #08172D;
+}
+
+.start-card-img {
+    margin-right: 20px;
+}
+
+.start-card-content p{
+    color: #B6BED0;
+    line-height: 28px;
+    width: 252px;
+}
+
+.arrow{
+    margin-right: 60px;
+    margin-top:100px
+}
+
+.attacks {
+    background-color: #131327;
+}
+
+.guard {
+    background-color:#0D1718;
+}
+
+.where-start {
+    margin-bottom: 76px;
+}
+.roadmap {
+    display: flex;
+    background-color: #0B1F43;
+    border-radius: 14px;
+    border:#183B73 solid 1px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 1280px;
+}
+
+.roadmap h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 106px;
+    padding-top: 26px;
+}
+
+.roadmap p {
+    color: #C4CBE0;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 186px;
+    width: 371px;
+    padding-bottom: 26px;
+}
+
+.roadmap-button {
+   
+    display: inline flex;
+        
+    background-color: #0A67FF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 61px;
+    margin-bottom: 47px;
+    
+    
+    padding-bottom: 0;
+    width: 260px;
+    height: 72px;
+    
+}
+
+.roadmap-button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 40px;
+    margin-right: 9px;
+    padding-top: 24px;
+}
+
+.roadmap-content{
+    margin-right: 155px;
+}
+
+.roadmap-content p{
+    margin-bottom: 26px;
+}
+
+.footer {
+
+    background-color: #060A12;
+    border: solid #151C29 1px;
+    display: flex;
+    width: 1440px;
+}
+
+
+
+.footer-column {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.footer-site-logo{
+    font-size: 24px;
+    color:#FFFFFF;
+    font-weight: 700;
+}
+
+.footer-column-text {
+    width: 313px;
+    color: #A8B1C4;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 80px;
+     
+}
+
+.footer-navigation-topics{
+    display: flex;
+    margin-top: 32px;
+}
+
+.footer-navigation-topic h2{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-navigation-item{
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 80px;
+    
+    
+}
+
+.footer-navigation-item :last-child{
+    margin-right: 0;
+    
+}
+
+.footer-navigation-item a{
+    text-decoration: none;
+    color: #A8B1C4;
+}

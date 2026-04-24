@@ -4,19 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Классификация хакеров</title>
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <p>Классификация хакеров</p>
+
+    <header class="page-header">   
+        <nav class="main-nav">
+            <p class = "site-logo">noname</p>
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
+                    <a href = "#">История</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href = "#">Кейсы</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href = "#">Защита</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href = "#">Инструменты</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <main class= "main">
-        <section>
+    <main class="main-content">
+        <section class = "promo">
+            <p class = "edu-resource">ОБРАЗОВАТЕЛЬНЫЙ РЕСУРС</p>
+            <div  class = "promo-with-img" >
+                <div class = "promo-only-text">
+                    <h1>От первого взлома до современных угроз</h1>
+                    <p class = "promo-text">Изучайте историю хакерства, инструменты атак и защиты, знаменитые кейсы и этичные практики.</p>
+                </div>
+                    <img class = "hacker-img" src = "img/pngtree-cybersecurity-banner-with-a-hacker-in-a-hood-using-a-laptop-image_16411274 1.svg" alt = "Хакер">
+                
+            </div>
+            <ul class = "promo-buttons">
+                <li class = "study-history-button">
+                    <a href = "#">Изучить историю</a>
+                </li>
+                <li class = "sections-button">
+                    <a href = "#">Перейти к разделам</a>
+                </li>
+            </ul>
+        </section>
+        <section class = "main-directions">
+            <h2>Основные направления</h2>
+            <ul class = "directions">
+                <li class = "direction-item">
+                    <img src = "img/иконка хакеров.png" width="80px" height="73px">
+                    <h3>Хакеры и группы</h3>
+                    <p>Истории известных хакеров и групп, их методы, идеология и влияние на мир</p>
+                    <a href ="#">Перейти</a>
+                    <img src = "img/Arrow 4.svg">
+                </li>
+                <li class = "direction-item">
+                    <img src = "img/иконка терминала.png" width="80px" height="73px">                    
+                    <h3>Взломы и кейсы</h3>
+                    <p>Разбор знаменитых атак и утечек: что произошло, как это было и к чему привело.</p>
+                    <a href ="#">Перейти</a>
+                    <img src = "img/Arrow 4.svg">
+                </li>
+                <li class = "direction-item">
+                    <img src = "img/иконка инструментов.png" width="80px" height="73px">
+                    <h3>Инструменты атак</h3>        
+                    <p>Популярные  инструменты хакеров: сканеры, фреймворки, эксплойты и утилиты.</p>
+                    <a href ="#">Перейти</a>
+                    <img src = "img/Arrow 4.svg">
+                </li>
+                <li class = "direction-item">
+                    <img src = "img/иконка защиты.png" width="68px" height="73px">
+                    <h3>Защита и безопасность</h3>                     
+                    <p>Механизмы защиты, защита сетей и систем, мониторинг, реагирование на инциденты.</p>
+                    <a href ="#">Перейти</a>
+                    <img src = "img/Arrow 4.svg">
+                </li>
+            </ul>
+        </section>
+        <section class = "where-start">
+            <h2>С чего начать</h2>
+            <ul class = "start-cards">
+                <li class ="start-card  beginner">
+                    <img src = "img/компас 1.png" width="71px" height="72px" class="start-card-img">
+                    <div class = "start-card-content">
+                        <h3>Я новичок</h3>
+                        <p>Пошаговый roadmap и базовые материалы для старта в кибербезопасности</p>
+                    </div>
+                    <img src="img/Arrow 5.svg" width="26px" class = "arrow">
+                    
+                </li>
+                <li class ="start-card attacks">
+                    <img src = "img/прицел 1.png" width="71px" height="72px" class="start-card-img">
+                    <div class = "start-card-content">                
+                        <h3>Интересуют атаки</h3>
+                        <p>Изучайте методы атак, инструменты хакеров и реальные кейсы</p>
+                    </div>
+                    <img src = "img/Arrow 6.svg" width="26px" class = "arrow">
+                </li>
+                <li class ="start-card guard">
+                    <img src = "img/щит з 1.png" width="71px" height="72px" class="start-card-img">
+                    <div class = "start-card-content">
+                        <h3>Хочу защититься</h3>
+                        <p>Узнайте, как защищать системы, данные и инфраструктуру от современных угроз.</p>
+                    </div>
+                    <img src="img/Arrow 7.svg" width="26px" class = "arrow">
+                </li>
+            </ul>
+        </section>
+        <section class = "roadmap">
+            <div class = "roadmap-content">
+                <h2>Готовы глубже изучить мир кибербезопасности?</h2>
+                <p>Начните с roadmap для новичков и постройте свой путь от первых  шагов до профессиона.</p>
+            </div>
+            <div class = "roadmap-button">
+                <a href = "#">Начать с roadmap</a>
+                <img src = "img/Arrow 8.svg" width="16px">
+            </div>
         </section>
     </main>
     <footer class="footer">
-        
+        <div class = "footer-column">
+            <p class = "footer-site-logo">noname</p>
+            <p class = "footer-column-text">Образовательный ресурс о хакерстве, безопасности и современных угрозах.</p>
+        </div>
+        <ul class="footer-navigation-topics">
+            <li class="footer-navigation-topic">
+                <h2>Разделы</h2>
+                <ul class="footer-navigation">
+                    <li class="footer-navigation-item">
+                        <a href = "#">История</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href = "#">Кейсы</a>
+                    </li>    
+                    <li class="footer-navigation-item">
+                        <a href = "#">Инструменты</a>
+                    </li>   
+                    <li class="footer-navigation-item">
+                        <a href = "#">Защита</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer-navigation-topic">
+                <h2>Ресурсы</h2>
+                <ul class="footer-navigation">
+                    <li class="footer-navigation-item">
+                        <a href = "#">Roadmap</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href = "#">Книги и курсы</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href = "#">Сообщество</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer-navigation-topic">
+                <h2>О проекте</h2>
+                <ul class="footer-navigation">
+                    <li class="footer-navigation-item">
+                        <a href = "#">О нас</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href = "#">Контакты</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href = "#">Политика конфиденциальности</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </footer>
     <script src="js/script.js"></script>
 </body>
