@@ -1,11 +1,15 @@
 body {
     margin: 0;
-
     background-color: #070B14;
     color: #FFFFFF;
     font-family: "Inter";
     
-    
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 ul {
@@ -22,6 +26,8 @@ h2{
     font-size: 44px;
 }
 
+
+
 .page-header {
     background-color: #0A0F1A;
     border: 2px solid #151B28;
@@ -34,7 +40,7 @@ h2{
 .site-logo{
     font-size: 24px;
     font-weight: 700;
-    margin-left: 64px;
+    
     margin-right: 278px;
 }
 
@@ -65,8 +71,8 @@ h2{
     background-color:#07111F;
     background: radial-gradient(closest-side, #0d039c80, #0b037040, #07111F);
     border-radius: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    
+        
     margin-bottom: 40px;
     width: 1280px;
 }
@@ -149,9 +155,7 @@ h2{
     color:#FFFFFF;
 }
 
-h2 {
-    margin-left: 80px;
-}
+
 
 
 .main-directions h2{
@@ -189,9 +193,6 @@ h2 {
     padding-bottom: 36px;
 }
 
-.directions :first-child{
-    margin-left: 40px;
-}
 
 .direction-item :nth-child(2){
     width: 247px;
@@ -215,9 +216,7 @@ h2 {
 
     padding-top: 44px;
 }
-.start-card:first-child{
-    margin-left: 40px;
-}
+
 
 .beginner {
     background-color: #08172D;
@@ -254,8 +253,8 @@ h2 {
     background-color: #0B1F43;
     border-radius: 14px;
     border:#183B73 solid 1px;
-    margin-left: 80px;
-    margin-right: 80px;
+    
+    
     margin-bottom: 20px;
     width: 1280px;
 }
@@ -311,17 +310,21 @@ h2 {
 }
 
 .footer {
-
+    max-width:100%;
     background-color: #060A12;
     border: solid #151C29 1px;
-    display: flex;
-    width: 1440px;
+    
+}
+
+.footer .container{
+    display: flex; 
 }
 
 
 
+
+
 .footer-column {
-    margin-left: 80px;
     margin-top: 20px;
 }
 
@@ -347,13 +350,20 @@ h2 {
 }
 
 .footer-navigation-topic h2{
+    margin-left: 60px;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 20px;
+    
+}
+
+.footer-navigation-topic{
+    width:300px;
+    
 }
 
 .footer-navigation-item{
-    padding-left: 20px;
+    
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -363,11 +373,469 @@ h2 {
 }
 
 .footer-navigation-item :last-child{
-    margin-right: 0;
+    margin-right: 0px;
     
 }
 
 .footer-navigation-item a{
     text-decoration: none;
     color: #A8B1C4;
+}
+
+
+
+
+
+
+
+
+/*Вторая страница*/
+
+.hero-mini-title {
+    display: inline-block;
+    color: #1E90FF  ;
+    background-color: #0A1E3A;
+    border:solid 1px #123B6D;
+    border-radius: 8px;
+    padding-top:8px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+}
+
+.hacker-info{
+    padding-left: 40px;
+    display: flex;
+    background-color: #0A101B;
+    border:#172132 solid 1px;
+    border-radius: 14px;
+}
+
+.hacker-info h2{
+    margin-top: 32px;
+    margin-left: 20px;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.hacker-info p{
+    margin-top: 15px;
+    margin-bottom: 37px;
+    color:#B4BDCF;
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+.hacker-info img {
+    margin-top:35px;
+}
+
+.famous-hackers h2{
+    font-size: 32px;
+}
+.famous-hackers ul{
+    display: flex;
+    padding-left: 0;
+    
+}
+
+.famous-hackers ul li {
+    
+    width: 292px;
+    background-color: #0A101B;
+    border:solid 1px #172132;
+    border-radius: 12px;
+    margin-right: 38px;
+    padding-bottom: 22px;
+    display: flex;
+  flex-direction: column;
+}
+
+.famous-hackers ul li h3{
+    margin-left: 24px;
+}
+
+.famous-hackers ul li p{
+    color: #AEB7C9;
+}
+.famous-hackers ul li a{
+    text-decoration: none;
+    color:#1E90FF;
+    margin-top: auto;
+    
+}
+
+.famous-hackers ul li img{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.hackers-groups-container {
+    background-color: #0A101B;
+    border: solid 1px #172132;
+    border-radius: 12px;
+}
+
+.hackers-groups-container h3{
+    margin-left: 139px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.anonymous h2 {
+     font-size: 32px;
+    font-weight: 700;
+}
+
+.hackers-groups-container p{
+    margin-left:115px;
+    color: #AEB7C9;
+    font-size: 16px;
+    max-width: 251px;
+}
+
+.more-info h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.more-info ul{
+    display: flex;
+    
+}
+
+.more-info ul li{
+    display: flex;
+    background-color: #0A101B;
+    border: #172132 solid 1px;
+    border-radius: 14px;
+    width: 400px;
+    margin-right: 40px;
+}
+
+.more-info ul li img{
+    margin-left: 22px;
+}
+
+.more-info-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.more-info-text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #AEB7C9;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Третья страница*/
+
+.transition{
+    display: flex;
+    padding: 0;
+}
+
+.transition li {
+    color: #7C879C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.transition li a{
+    margin-right: 20px;
+    
+    text-decoration: none;
+    color: #7C879C;
+}
+
+.transition li:first-child{
+    padding-left: 0;
+}
+
+
+
+
+.hacker-mini-title {
+    border:solid 1px #123B6D;
+    border-radius: 8px;
+    background-color: #0A1E3A;
+    color: #1E90FF;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 70px;
+    padding-left: 21px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.hacker-promo{
+    display: flex;
+}
+
+
+
+.hacker-promo-text h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.eng-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #B4BDCF;
+    padding: 0;
+}
+
+.hacker-mini-info{
+    font-size: 18px;
+    font-weight: 600;
+    color:#B4BDCF;
+    line-height: 30px;
+    padding-left: 0;
+    max-width: 436px;
+}
+
+.lists {
+    display: flex;
+    background-color: #0A101B;
+    border:solid 1px #172132;
+    border-radius: 14px;
+    margin-right: 30px;
+}
+
+.list-1{
+    color: #B4BDCF;
+    font-size: 15px;
+    font-weight: 600;
+    width: 153px;
+    line-height: 30px;
+}
+
+.list-2{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 44px;
+}
+
+.hacker-history h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hacker-history p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #B4BDCF;
+    width: 600px;
+}
+
+.hacker-history-text{
+    
+    border: #172132 solid 1px;
+    background-color: #0A101B;
+    border-radius: 14px;
+    line-height: 30px;
+    column-width: 600px;
+    height: 280px;
+}
+
+.hacker-history-text p{
+    margin-right: 32px;
+}
+
+.famous-hacks h2{
+    font-size: 32px;
+}
+
+.famous-hacks ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.famous-hacks-item{
+    
+    border: solid 1px #172132;
+    background-color: #0A101B;
+    border-radius: 12px;
+    margin-right: 38px;
+    max-width: 292px;
+    height: 240px;
+    padding-bottom: 8px;
+}
+
+
+
+.famous-hacks-item h3{
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.famous-hacks-item p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #B4BDCF;
+    line-height: 24px;
+}
+
+p.years{
+    color: #1E90FF;
+    background-color: #0A1E3A;
+    border: solid 1px #1E90FF ;
+    border-radius: 999px;
+    display: inline-block;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-left: 20px;
+}
+
+.methods h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.methods ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.methods ul li{
+    height: 180px;
+}
+
+.methods ul li:nth-child(1){
+    background-color: #0A101B;
+    border: solid #172132 1px;
+      border-radius: 15px 0 0 15px; 
+}
+
+.methods ul li:nth-child(2){
+    background-color: #0A101B;
+    border: solid #172132 1px;
+}
+
+.methods ul li:nth-child(3){
+    background-color: #0A101B;
+    border: solid #172132 1px;
+    border-radius: 0 15px 15px 0;
+}
+
+.methods ul li h3{
+    padding-left: 150px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.methods ul li p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #B4BDCF;
+    padding-left: 150px;
+    line-height: 24px;
+}
+
+.arrest h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.arrest-content{
+    display: flex;
+    border: #172132 solid 1px;
+    border-radius: 14px;
+    background-color: #0A101B;
+    color: #B4BDCF;
+    
+}
+
+.arrest-content-text p{
+    padding-left: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 521px;
+    margin-right: 299px;
+}
+
+.arrest-content-text a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: solid #1E90FF 1px;
+    border-radius: 12px;
+    padding-right: 29px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 31px;
+    
+}
+
+.quote q{
+    
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.quote {
+    padding-top: 52px;
+}
+
+.quote p{
+    font-size: 16px;
+    color: #1E90FF;
+   
+}
+
+.interest h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.interest ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.interest ul li{
+    display: flex;
+    background-color: #0A101B;
+    border:#172132 solid 1px;
+    border-radius: 12px;
+    width: 292px;
+    margin-right: 38px;
+}
+
+.interest ul li img{
+    padding-top: 25px;
+    padding-left: 14px;
+}
+
+.interest-content h3{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.interest-content p{
+    line-height: 24px;
+    color: #B4BDCF;
+    font-size: 14px;
+    font-weight: 500;
 }
