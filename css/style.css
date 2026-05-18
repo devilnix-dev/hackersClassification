@@ -6,6 +6,8 @@ body {
     
 }
 
+
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -555,9 +557,12 @@ h2{
 
 .transition li a{
     margin-right: 20px;
-    
     text-decoration: none;
     color: #7C879C;
+}
+
+.transition li a.selected{
+    color:#1E90FF;
 }
 
 .transition li:first-child{
@@ -568,13 +573,14 @@ h2{
 
 
 .hacker-mini-title {
+    display: inline;
     border:solid 1px #123B6D;
     border-radius: 8px;
     background-color: #0A1E3A;
     color: #1E90FF;
     font-size: 14px;
     font-weight: 600;
-    max-width: 70px;
+    padding-right: 20px;
     padding-left: 21px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -583,6 +589,7 @@ h2{
 
 .hacker-promo{
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -649,8 +656,8 @@ h2{
     background-color: #0A101B;
     border-radius: 14px;
     line-height: 30px;
-    column-width: 600px;
-    height: 280px;
+    
+    padding-bottom: 20px;
 }
 
 .hacker-history-text p{
@@ -664,6 +671,7 @@ h2{
 .famous-hacks ul{
     display: flex;
     padding-left: 0;
+    justify-content: space-between;
 }
 
 .famous-hacks-item{
@@ -671,7 +679,7 @@ h2{
     border: solid 1px #172132;
     background-color: #0A101B;
     border-radius: 12px;
-    margin-right: 38px;
+    
     max-width: 292px;
     height: 240px;
     padding-bottom: 8px;
@@ -750,10 +758,14 @@ p.years{
     line-height: 24px;
 }
 
+.arrest{
+    margin-bottom: 36px;
+}
+
 .arrest h2{
     font-size: 32px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 24px;  
 }
 
 .arrest-content{
@@ -763,6 +775,9 @@ p.years{
     background-color: #0A101B;
     color: #B4BDCF;
     
+}
+.arrest-content-text{
+    margin-bottom: 20px;
 }
 
 .arrest-content-text p{
@@ -838,4 +853,6 @@ p.years{
     color: #B4BDCF;
     font-size: 14px;
     font-weight: 500;
+    
 }
+
