@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Классификация хакеров</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <div class = "container">   
+            <nav class="main-nav">
+                <p class = "site-logo">noname</p>
+                <ul class="site-navigation">
+                    <li class="site-navigation-item">
+                        <a href = "#">История</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href = "#">Кейсы</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href = "#">Защита</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href = "#">Инструменты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class = "container">
+           <section>
+                <div>
+                    <p class="hacker-mini-title">Защита</p>
+                </div>
+                <h1>Инструменты атак</h1>
+                <img src = "img/hackerr 1.svg">
+                <p>Хакеры используют разнообразные инструменты для поиска уязвимостей, сканирования систем, получения доступа и поддержания контроля. Многие из них находятся в открытом доступе.</p>
+           </section>
+
+           <section class="types">
+                <h2>Этапы атаки и связанные инструменты</h2>
+                <ul class = "horizontal-list-new">
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>1.Разведка</h3>
+                                <p>Сбор информации о цели, сканирование портов, определение технологий.</p>
+                                <p>Инструменты:</p>
+                                <p>sNmap, Zenmap, Masscan, Wireshark</p>
+                            </div>
+                        </div>
+                    </li>
+
+                  <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>2.Сканирование и поиск уязвимостей</h3>
+                                <p>Поиск уязвимостей в системах и сервисах.</p>
+                                <p>Инструменты:</p>
+                                <p>Nessus, OpenVAS, SQLmap, Nikto</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>3.Получение доступа</h3>
+                                <p>Эксплуатация уязвимостей для получения доступа к системе.</p>
+                                <p>Инструменты:</p>
+                                <p>Metasploit, Exploit-DB, BeEF, Burp Suite</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>4.Поддержание доступа</h3>
+                                <p>Закрепление в системе и обход механизмов защиты.</p>
+                                <p>Инструменты:</p>
+                                <p>Netcat, PowerShell Empire, Cobalt Strike</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>5.Повышение привилегий</h3>
+                                <p>Получение повышенных прав в системе.</p>
+                                <p>Инструменты:</p>
+                                <p>Mimikatz, WinPEAS, LinPEAS</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>6.Действия на цели</h3>
+                                <p>Сбор данных, перемещение по сети, выполнение различных действий.</p>
+                                <p>Инструменты:</p>
+                                <p>ssBloodHound, CrackMapExec, Impacket</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+           </section>
+
+           <section class="types">
+                <h2>Популярные категории инструментов</h2>
+                <ul class = "horizontal-list-new-1">
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Сканеры сети и портов</h3>
+                                <p>Позволяют обнаруживать активные хосты, открытые порты и сервисы.</p>
+                                <ul class ="points">
+                                    <li>Nmap</li>
+                                    <li>Masscan</li>
+                                    <li>Angry IP Scanner</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Сканеры уязвимостей</h3>
+                                <p>Автоматизируют поиск известных уязвимостей в системах и приложениях.</p>
+                                <ul class ="points">
+                                    <li>Nessus</li>
+                                    <li>OpenVAS</li>
+                                    <li>Qualys</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Эксплойты и фреймворки</h3>
+                                <p>Содержат готовую последовательность команд для атаки на вычислительную машину</p>
+                                <ul class ="points">
+                                    <li>Metasploit Framework</li>
+                                    <li>Exploit-DB</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Инструменты для веб-атак</h3>
+                                <p>Используются для поиска и эксплуатации уязвимостей в веб-приложениях.</p>
+                                <ul class ="points">
+                                    <li>Burp Suite</li>
+                                    <li>SQLmap</li>
+                                    <li>Nikto</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Снифферы и анализаторы</h3>
+                                <p>Используются для перехвата и анализа сетевого трафика.</p>
+                                <ul class ="points">
+                                    <li>Wireshark</li>
+                                    <li>Tcpdump</li>
+                                    <li>Ettercap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Подбор учётных данных</h3>
+                                <p>Используются для подбора паролей и логинов для дальнейших действий.</p>
+                                <ul class ="points">
+                                    <li>John the Ripper</li>
+                                    <li>Hashcat</li>
+                                    <li>Hydra</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Трояны и бэкдоры</h3>
+                                <p>Обеспечивают скрытый доступ и удалённое управление системами</p>
+                                <ul class ="points">
+                                    <li>Netcat</li>
+                                    <li>Meterpreter</li>
+                                    <li>Cobalt Strike</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class ="border-container tools-item">
+                        <div class = "heading">
+                            <div>
+                                <h3>Инструменты для пост-эксплуатации</h3>
+                                <p>Помогают закрепиться в системе и повысить привилегии.</p>
+                                <ul class ="points">
+                                    <li>Mimikatz</li>
+                                    <li>PowerShell Empire</li>
+                                    <li>LinPEAS / WinPEAS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+           </section>
+
+         
+
+           <section>
+                <div class = "border-container remember">
+                    <img src = "img/sign.svg">
+                    <div>
+                        <h3>Важно помнить</h3>
+                        <p>Использование инструментов атак без разрешения является незаконным и может повлечь серьёзные последствия. Изучайте и применяйте их только в рамкахзакона и с письменного согласия владельца систем.</p>
+                    </div>
+                </div>
+           </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class = "container">
+            <div class = "footer-column">
+                <p class = "footer-site-logo">noname</p>
+                <p class = "footer-column-text">Образовательный ресурс о хакерстве, безопасности и современных угрозах.</p>
+            </div>
+            <ul class="footer-navigation-topics">
+                <li class="footer-navigation-topic">
+                    <h2>Разделы</h2>
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <a href = "#">История</a>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <a href = "#">Кейсы</a>
+                        </li>    
+                        <li class="footer-navigation-item">
+                            <a href = "#">Инструменты</a>
+                        </li>   
+                        <li class="footer-navigation-item">
+                            <a href = "#">Защита</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <h2>Ресурсы</h2>
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <a href = "#">Roadmap</a>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <a href = "#">Книги и курсы</a>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <a href = "#">Сообщество</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <h2>О проекте</h2>
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <a href = "#">О нас</a>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <a href = "#">Контакты</a>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <a href = "#">Политика конфиденциальности</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
