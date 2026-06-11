@@ -1105,11 +1105,31 @@ p.years{
 
     .roadmap{
         display: block;
+        
     }
 
     .roadmap-button{
-        margin-left: 25%;
+        margin-left: 19%;
         
+    }
+
+    .roadmap-content{
+        width: 100%;
+    }
+
+    .roadmap h2{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        padding-top: 6%;
+        padding-left: 6%;
+        margin-bottom: 7%;
+    }
+
+    .roadmap p {
+        padding: 0;
+        margin: 0;
+        padding-left: 6%;
     }
 
     .hero h1{
