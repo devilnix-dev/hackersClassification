@@ -967,7 +967,46 @@ p.years{
     padding: 2%;
 }
 
-.horizontal-list-new
+.horizontal-list-new{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+
+@media (min-width: 600px) {
+  .horizontal-list-new {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 900px) {
+  .horizontal-list-new {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.horizontal-list-new-1{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    margin-bottom: 4%;
+}
+
+@media (min-width: 600px) {
+  .horizontal-list-new-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 900px) {
+  .horizontal-list-new-1 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 
 .tools-item{
     max-width: 400px;
@@ -983,11 +1022,7 @@ p.years{
 }
 
 
-.horizontal-list-new{
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 1fr;
-}
+
 
 .horizontal-list{
     display: flex;
@@ -1009,6 +1044,15 @@ p.years{
     color:#B4BDCF;
     padding: 1%;
     padding-left: 2%;
+}
+
+.tools-promo{
+    display: flex;
+}
+
+.tools-promo-text{
+    font-size: 18px;
+    color: #B4BDCF;
 }
 
 @media (max-width: 768px) {
@@ -1213,15 +1257,7 @@ p.years{
         margin: 0 auto;
     }
 
-    .horizontal-list-new{
-        display: block;
-        width: fit-content;  
-        margin: 0 auto;
-    }
 
-    .horizontal-list-new li{
-        margin-bottom: 7%;
-    }
 
     .horizontal-list li{
         margin-bottom: 7%;
@@ -1231,6 +1267,8 @@ p.years{
         text-align: center;
         font-size: 10vw;
     }
+
+    
 
     .types h2{
         text-align: center;
@@ -1248,6 +1286,8 @@ p.years{
         font-size: 10vw;
     }
 
+    
+
     .horizontal-list-new-1{
         display: block;
         width: fit-content;  
@@ -1263,8 +1303,23 @@ p.years{
         height: auto;
     }
 
+    .tools-promo{
+        display: block;
+    }
+
     .tools-promo img {
         width: 100%;
         height: auto;
     }
+
+    .types{
+        margin: 0;
+        padding: 0;
+    }
+
+    .types ul{
+        margin: 0;
+        padding: 0;
+    }
 }
+
