@@ -6,6 +6,8 @@ body {
     
 }
 
+
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -181,6 +183,10 @@ h2{
     padding-left: 22px;
 }
 
+.direction-item img{
+    margin-left: 7%;
+}
+
 .direction-item p {
     color: #AEB7C9;
     font-size: 16px;
@@ -230,7 +236,7 @@ h2{
 .start-card-content p{
     color: #B6BED0;
     line-height: 28px;
-    width: 252px;
+    max-width: 352px;
 }
 
 .arrow{
@@ -287,9 +293,9 @@ h2{
     margin-top: 61px;
     margin-bottom: 47px;
     
-    
+    padding-right: 2%;
     padding-bottom: 0;
-    width: 260px;
+    max-width: 260px;
     height: 72px;
     
 }
@@ -359,7 +365,7 @@ h2{
 }
 
 .footer-navigation-topic{
-    width:300px;
+    max-width:310px;
     
 }
 
@@ -501,7 +507,7 @@ h2{
 
 .more-info ul{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .more-info ul li{
@@ -509,8 +515,8 @@ h2{
     background-color: #0A101B;
     border: #172132 solid 1px;
     border-radius: 14px;
-    width: 400px;
-    margin-right: 40px;
+    max-width: 400px;
+    margin-right: 2%;
 }
 
 .more-info ul li img{
@@ -730,7 +736,7 @@ p.years{
 .methods ul li:nth-child(1){
     background-color: #0A101B;
     border: solid #172132 1px;
-      border-radius: 15px 0 0 15px; 
+    border-radius: 15px 0 0 15px; 
 }
 
 .methods ul li:nth-child(2){
@@ -862,11 +868,154 @@ p.years{
     background-color: #0A101B;
 }
 
+.blue-border{
+    color:#1E90FF;
+    border:1px #123B6D solid;
+    background-color: #0A1E3A;
+    border-radius: 8px;
+}
+
+.types p{
+    color:#B4BDCF;
+    font-size: 16px;
+    font-weight: 600s;
+}
+
+.points{
+     list-style-type: disc; 
+}
+
+.points li{
+    color: #B4BDCF;
+}
+
+.heading{
+    display: flex;
+}
+
+.hats-item h3{
+    padding-left: 10%;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    box-sizing: border-box; 
+}
+
+.hats-item{
+    max-width: 380px;
+    
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    box-sizing: border-box; 
+    padding: 15px;
+}
+
+.hats-item img{
+    margin-top: 50px;
+}
+
+.hats-item ul li{
+    margin-bottom: 15px;
+    
+}
+
+.other-hackers-item{
+    max-width: 380px;
+}
+
+.other-hackers-item h3{
+    padding-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.other-hackers-item p{
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #B4BDCF;
+}
+
+
+.remember{
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.remember h3{
+    padding-left: 1%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E90FF;
+}
+
+.remember p{
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B4BDCF;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.remember img{
+    max-width: 79px;
+    max-height: 79px;
+    padding: 2%;
+}
+
+.horizontal-list-new
+
+.tools-item{
+    max-width: 400px;
+    
+}
+
+.tools-item h3{
+    padding-left: 7%;
+}
+
+.tools-item {
+    padding:5%;
+}
+
+
+.horizontal-list-new{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+.horizontal-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-border{
+    border: 1px solid #172132;
+    border-radius: 12px;
+    margin-bottom: 2%;
+}
+
+.table-border th{
+    padding-top: 1%;
+    padding-left: 1.1%;
+}
+
+.table-border td{
+    color:#B4BDCF;
+    padding: 1%;
+    padding-left: 2%;
+}
+
 @media (max-width: 768px) {
 
     .main-nav{
         display: block;
-        line-height: 5vw;
+        line-height: 10vw;
         text-align: center;
     }
 
@@ -894,8 +1043,18 @@ p.years{
 
     .footer-navigation-topics{
         display: block;
+        padding: 0;
     }
 
+    .footer-navigation-topic{
+        margin-bottom: 10%;
+    }
+
+    .promo-only-text h1{
+        font-size: 10vw;
+    }
+
+    
     .promo-with-img{
         display: block;
     }
@@ -905,15 +1064,38 @@ p.years{
         height: auto;
     }
 
-    .directions{
+    .promo-buttons{
         display: block;
+    }
+
+    .main-directions h2{
+        text-align: center;
+    }
+
+    
+
+    .directions{
+        width: fit-content;  
+        margin: 0 auto;
+        display: block;
+        
     }
 
     .directions li{
         margin-bottom: 7%;
     }
 
+    .where-start h2{
+        text-align: center;
+    }
+
     .start-cards{
+        display: block;
+    }
+
+    .start-card{
+        width: fit-content;  
+        margin: 0 auto;
         display: block;
     }
 
@@ -923,5 +1105,146 @@ p.years{
 
     .roadmap{
         display: block;
+    }
+
+    .roadmap-button{
+        margin-left: 25%;
+        
+    }
+
+    .hero h1{
+        font-size: 10vw;
+    }
+
+    .famous-hackers h2{
+        text-align: center;
+    }
+
+    .famous-hackers ul{
+        display: block;
+        width: fit-content;  
+        margin: 0 auto;
+        
+    }
+    
+    .famous-hackers ul li{
+        margin-bottom: 7%;
+    }
+
+    .anonymous h2{
+        text-align: center;
+    }
+
+    .more-info h2{
+        text-align: center;
+    }
+
+    .more-info ul{
+        display: block;
+
+    }
+
+    .more-info ul li{
+        margin-bottom: 7%;
+    }
+
+
+    .hacker-promo{
+        display: block;
+    }
+
+
+    .famous-hacks ul{
+        display: block;
+        width: fit-content;  
+        margin: 0 auto;
+    }
+
+    .famous-hacks li{
+        margin-bottom: 7%;
+    }
+
+    .methods ul{
+        display: block;
+        width: fit-content;  
+        margin: 0 auto;
+    }
+
+    .methods ul li{
+        border-radius: 15px;
+        margin-bottom: 7%;
+    }
+
+    .methods ul li:nth-child(1){
+        border-radius: 15px; 
+    }
+
+    .methods ul li:nth-child(3){ 
+        border-radius: 15px;
+    }
+
+    .arrest-content{
+        display: block;
+    }
+
+    .horizontal-list{
+        display: block;
+        width: fit-content;  
+        margin: 0 auto;
+    }
+
+    .horizontal-list-new{
+        display: block;
+        width: fit-content;  
+        margin: 0 auto;
+    }
+
+    .horizontal-list-new li{
+        margin-bottom: 7%;
+    }
+
+    .horizontal-list li{
+        margin-bottom: 7%;
+    }
+
+    .classification h1{
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    .types h2{
+        text-align: center;
+    }
+
+    .other-hackers h2{
+        text-align: center;
+    }
+
+    .comparison h2{
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    .horizontal-list-new-1{
+        display: block;
+        width: fit-content;  
+        margin: 0 auto;
+    }
+
+    .horizontal-list-new-1 li{
+        margin-bottom: 7%;
+    }
+    
+    .classification img{
+        width: 100%;
+        height: auto;
+    }
+
+    .tools-promo img {
+        width: 100%;
+        height: auto;
     }
 }
