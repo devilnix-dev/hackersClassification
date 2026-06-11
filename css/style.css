@@ -6,12 +6,10 @@ body {
     
 }
 
-
-
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 2%;
 }
 
 ul {
@@ -52,6 +50,7 @@ h2{
     margin: 0 auto;
     margin-bottom: 14px;
     margin-top: 4px;
+    width: 100%;
 }
 
 .site-navigation{
@@ -76,12 +75,12 @@ h2{
     
         
     margin-bottom: 40px;
-    width: 1280px;
+    max-width: 1280px;
 }
 
 .promo-only-text h1{
     padding-left: 36px;
-    width: 690px;
+    max-width: 690px;
     margin-right: 0;
 
 }
@@ -92,7 +91,7 @@ h2{
 
 .promo-text{
     padding-left: 36px; 
-    width: 531px;
+    max-width: 531px;
 }
 
 
@@ -172,7 +171,7 @@ h2{
     background-color: #0A101B;
     border:#172132 solid 1px;
     border-radius: 12px;
-    width: 292px;
+    max-width: 292px;
     height: 320px;
     margin-right: 24px;
     padding-top: 34px;
@@ -197,11 +196,11 @@ h2{
 
 
 .direction-item :nth-child(2){
-    width: 247px;
+    max-width: 247px;
 }
 
 .direction-item :nth-child(3){
-    width: 259px;
+    max-width: 259px;
 }
 
 .start-cards {
@@ -258,7 +257,7 @@ h2{
     
     
     margin-bottom: 20px;
-    width: 1280px;
+    max-width: 1280px;
 }
 
 .roadmap h2 {
@@ -863,3 +862,66 @@ p.years{
     background-color: #0A101B;
 }
 
+@media (max-width: 768px) {
+
+    .main-nav{
+        display: block;
+        line-height: 5vw;
+        text-align: center;
+    }
+
+    .site-navigation{
+        display: block;
+        text-align: center;
+    }
+
+    .site-logo{
+        text-align: center;
+    }
+
+    .site-navigation-item{ 
+        font-size: 1vw;
+    }
+
+    .page-header{
+        width: 100%;
+    }
+
+    
+    .footer .container{
+        display: block;
+    }
+
+    .footer-navigation-topics{
+        display: block;
+    }
+
+    .promo-with-img{
+        display: block;
+    }
+
+    .hacker-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .directions{
+        display: block;
+    }
+
+    .directions li{
+        margin-bottom: 7%;
+    }
+
+    .start-cards{
+        display: block;
+    }
+
+    .start-cards li{
+        margin-bottom: 7%;
+    }
+
+    .roadmap{
+        display: block;
+    }
+}
