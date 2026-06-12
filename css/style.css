@@ -83,15 +83,12 @@ h2{
 .promo-only-text h1{
     padding-left: 36px;
     max-width: 690px;
-    margin-right: 0;
+    
 
-}
-
-.hacker-img {
-    margin-right: 800px;
 }
 
 .promo-text{
+    color: #B4BDCF;
     padding-left: 36px; 
     max-width: 531px;
 }
@@ -163,6 +160,7 @@ h2{
 
 .main-directions h2{
     margin-bottom: 50px;
+    margin-left: 3%;
 }
 
 .directions {
@@ -211,17 +209,22 @@ h2{
 
 .start-cards {
     display: flex;
+    padding: 0;
+    max-width: 1280px;
+    justify-content: space-between;
 }
 
+
+
 .start-card {
+    
     display: flex;
-    width: 400px;
-    height: 220px;
+    max-width: 410px;
     border: solid 1px #1D2740;
     border-radius: 12px;
-    margin-right: 20px;
-
-    padding-top: 44px;
+    padding-top: 2%;
+    
+    
 }
 
 
@@ -231,19 +234,26 @@ h2{
 
 .start-card-img {
     margin-right: 20px;
+    margin-left: 6%;
+}
+
+.start-card h3{
+    margin-left: 9%;
 }
 
 .start-card-content p{
     color: #B6BED0;
     line-height: 28px;
     max-width: 352px;
+    
 }
 
 .arrow{
-    margin-right: 60px;
-    margin-top:100px
+    padding-top: 600%;
+    
+    
+    
 }
-
 .attacks {
     background-color: #131327;
 }
@@ -254,6 +264,10 @@ h2{
 
 .where-start {
     margin-bottom: 76px;
+}
+
+.where-start h2{
+    margin-left: 3%;
 }
 .roadmap {
     display: flex;
@@ -353,7 +367,7 @@ h2{
 
 .footer-navigation-topics{
     display: flex;
-    margin-top: 32px;
+    
 }
 
 .footer-navigation-topic h2{
@@ -364,17 +378,13 @@ h2{
     
 }
 
-.footer-navigation-topic{
-    max-width:310px;
-    
-}
 
 .footer-navigation-item{
     
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    margin-right: 80px;
+    
     
     
 }
@@ -491,6 +501,10 @@ h2{
 .anonymous h2 {
      font-size: 32px;
     font-weight: 700;
+}
+
+.anonymous{
+    margin-bottom: 2%;
 }
 
 .hackers-groups-container p{
@@ -654,7 +668,7 @@ h2{
     font-size: 16px;
     font-weight: 500;
     color: #B4BDCF;
-    width: 600px;
+    max-width: 600px;
 }
 
 .hacker-history-text{
@@ -730,8 +744,10 @@ p.years{
 }
 
 .methods ul li{
-    height: 180px;
+   display: flex;
 }
+
+
 
 .methods ul li:nth-child(1){
     background-color: #0A101B;
@@ -751,7 +767,7 @@ p.years{
 }
 
 .methods ul li h3{
-    padding-left: 150px;
+    padding-left: 6%;
     font-size: 16px;
     font-weight: 600;
 }
@@ -760,8 +776,12 @@ p.years{
     font-size: 14px;
     font-weight: 500;
     color: #B4BDCF;
-    padding-left: 150px;
+    
     line-height: 24px;
+}
+
+.methods img{
+    padding: 6%;
 }
 
 .arrest{
@@ -791,8 +811,8 @@ p.years{
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
-    width: 521px;
-    margin-right: 299px;
+    
+    
 }
 
 .arrest-content-text a{
@@ -912,6 +932,8 @@ p.years{
 .hats-item img{
     margin-top: 50px;
 }
+
+
 
 .hats-item ul li{
     margin-bottom: 15px;
@@ -1053,6 +1075,7 @@ p.years{
 .tools-promo-text{
     font-size: 18px;
     color: #B4BDCF;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -1321,5 +1344,31 @@ p.years{
         margin: 0;
         padding: 0;
     }
+
+    .arrow{
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .tools-promo-no-img h1{
+        text-align: center;
+    }
+
+    .hats-item ul{
+    padding: 2%;
+    }
+    .hacker-history-text{
+        display: block;
+    }
+
+    .hacker-promo img{
+        width: 100%;
+        height: auto;
+    }
+
+    .quote{
+        padding-left: 8%;
+    }
 }
+    
 
